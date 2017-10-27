@@ -1,7 +1,7 @@
 inherit kf5
 
 NAME="kf5-karchive"
-VERSION=5.35.0
+VERSION=5.39.0
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="KDE 5 archive format library"
@@ -12,6 +12,7 @@ QIODevice."
 
 PKG_NAMES="libKF5Archive5 libKF5Archive-devel"
 libKF5Archive5_CONTENTS="
+	etc/xdg/karchive.categories
 	usr/bin/cygKF5Archive-5.dll
 	usr/share/doc/
 "
